@@ -1,62 +1,212 @@
-section {
-    background-color: #E6E6E6;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+ 
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-size: cover;
+    background-color: rgba(176, 248, 236, 0.2);
 }
 
-img {
+.div4 {
+    background-image: url("../img/fondo-textura-acuarela-abstracta-pastel_10126-978.webp");
+    margin-bottom: 2em;
+}
+
+
+h2 {
+    color: #5140b3;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    margin-left: 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    color: #E6E6E6;
+}
+
+.div3 i {
+    color: #5c1cb5;
+
+}
+
+.div2 {
+    background-color: #990CF5;
+    vertical-align: middle;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 4em;
+    margin-bottom: 15em;
+}
+
+.div3 {
+    background-color: rgba(33, 117, 151, 0.7);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -3.9em;
+}
+
+
+
+.principalTexto {
+    font-size: 1.2rem;
+    margin: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+.div6 ul {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.div7 ul {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.img-mediana {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100px;
+    border-radius: 50%;
 }
 
 h1 {
-    color: #005677;
-    background-color: #C4C4C4;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 60px;
-    height: 60px;
-    font-family: 'Times New Roman';
-    font-style: bold;
+    color: #5c1cb5;
+    margin-left: 30px;
+    font-size: 4rem;
+    font-family: 'varela';
     vertical-align: top;
+    margin-top: 0.3em;
 }
 
-h2 {
-    color: #005677;
-    background-color: #C4C4C4;
-    text-align: left;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 30px;
 
-    font-family: 'Times New Roman';
-    font-style: normal;
-    vertical-align: top;
+
+
+.div2 h2 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1.8em;
+    vertical-align: middle;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #FFFFFF;
+}
+
+h3 {
+    color: #5c1cb5;
+    margin-left: 30px;
+    font-size: 3rem;
+    font-family: 'Pinyon Script';
+    font-style: bold;
+    margin-top: 0;
+
 }
 
 footer {
-    background: #005677;
+    background: rgba(33, 117, 151, 0.7);;
     padding-bottom: 40;
     text-align: center;
 
 }
+
 span.nombre {
-  
     size: 18px;
-    color: #FFFFFF;
-    line-height: 35px;
-    white-space: nowrap;
+    color: #000000;
+
 }
 
-.linkedin {
-    white-space: nowrap;
-    vertical-align:text-top;
-    width: 20px;
-    padding: 5px;
+.div5 div {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
 }
 
 
+.div6 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.div7 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+ul {
+    list-style-type: none;
+}
 
+hr {
+    color: black;
+    size: 2px;
+    display: block;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: inset;
+    border-width: 1px;
+}
 
+.img-mediana {
+    margin-top: 5em;
+    height: 30em;
+    width: 13em;
+}
 
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(3, 0.5fr) 0.25fr repeat(2, 0.5fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+    
+    .div1 { grid-area: 1 / 1 / 6 / 3; }
+    .div2 { grid-area: 6 / 1 / 8 / 3; }
+.div1 {
+    grid-area: 1 / 1 / 5 / 2;
+}
+
+.div2 {
+    grid-area: 3 / 1 / 5 / 2;
+}
+
+.div3 {
+    grid-area: 4 / 1 / 7 / 2;
+}
+
+.div4 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div5 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div6 {
+    grid-area: 3 / 2 / 6 / 3;
+}
+
+.div7 {
+    grid-area: 6 / 2 / 7 / 3;
+}
